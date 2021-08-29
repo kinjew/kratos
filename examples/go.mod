@@ -18,6 +18,7 @@ require (
 	github.com/go-redis/redis/extra/redisotel v0.3.0
 	github.com/go-redis/redis/v8 v8.11.2
 	github.com/go-sql-driver/mysql v1.6.0
+	github.com/golang/protobuf v1.5.2
 	github.com/google/wire v0.5.0
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
@@ -41,6 +42,8 @@ require (
 	google.golang.org/genproto v0.0.0-20210805201207-89edb61ffb67
 	google.golang.org/grpc v1.39.1
 	google.golang.org/protobuf v1.27.1
+	gorm.io/driver/mysql v1.1.2
+	gorm.io/gorm v1.21.13
 )
 
 replace github.com/go-kratos/kratos/v2 => ../
